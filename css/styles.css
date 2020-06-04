@@ -2,6 +2,7 @@
   --primary-text-color: #757575;
   --secondary-text-color: #212121;
   --third-text-color: #ffffff;
+  --logo-color: #000000;
   --accent-color: #2196f3;
   --footer-adress-color: rgba(255, 255, 255, 0.6);
   --footer-copyright-color: rgba(255, 255, 255, 0.4);
@@ -24,8 +25,15 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  color: var(--logo-color);
 }
 .logo-web {
+  color: var(--accent-color);
+}
+.logo:visited {
+  color: var(--logo-color);
+}
+.logo-web:visited {
   color: var(--accent-color);
 }
 /* навигация */
