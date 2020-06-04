@@ -83,7 +83,9 @@ body {
 .benefits-list,
 .teem-list,
 .clients-list,
-.links-list {
+.links-list,
+.project-filter,
+.projects-list {
   list-style: none;
 }
 .benefits-name {
@@ -128,12 +130,18 @@ body {
 /* footer */
 .logo-studio {
   color: var(--third-text-color);
+  /* фон временный, чтобы было видно текст */
+  background-color: black;
 }
 .address-map {
   color: var(--third-text-color);
+  /* фон временный, чтобы было видно текст */
+  background-color: black;
 }
 .mail-phone {
   color: var(--footer-adress-color);
+  /* фон временный, чтобы было видно текст */
+  background-color: black;
 }
 .footer-call {
   font-weight: 700;
@@ -144,6 +152,8 @@ body {
   line-height: 2;
   text-align: center;
   color: var(--footer-copyright-color);
+  /* фон временный, чтобы было видно текст */
+  background-color: black;
 }
 .subscribe {
   font-weight: 900;
@@ -151,4 +161,40 @@ body {
   line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
+}
+
+/* portfolio */
+/* projects */
+.filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--accent-color);
+  color: var(--third-text-color);
+}
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+}
+.project-type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--primary-text-color);
+}
+.project-decription {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  color: var(--third-text-color);
+  /* фон временный, чтобы было видно текст */
+  background-color: black;
 }
