@@ -28,7 +28,6 @@ body {
   line-height: 1.19;
   color: var(--logo-color);
 }
-.logo:hover,
 .logo:focus {
   background-color: red;
 }
@@ -125,15 +124,15 @@ body {
   color: var(--third-text-color);
   background-color: rgba(47, 48, 58, 0.8);
 }
-/* teem */
-.teem-person {
+/* team */
+.team-person {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   columns: var(--secondary-text-color);
 }
-.teem-job {
+.team-job {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
