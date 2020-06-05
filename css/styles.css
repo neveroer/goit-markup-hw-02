@@ -60,6 +60,7 @@ body {
 .address-list .list {
   color: var(--primary-text-color);
   list-style: none;
+  font-style: normal;
 }
 .address-list .list:hover,
 .address-list .list:focus {
@@ -87,13 +88,20 @@ body {
   color: var(--third-text-color);
   background-color: var(--accent-color);
 }
+/* временный стиль, чтобы было видно кнопку при наведении и выборе с помощью клавиатуры */
+.button:hover,
+.button:focus {
+  color: var(--accent-color);
+  background-color: var(--third-text-color);
+}
 /* benefits section */
 .benefits-list,
 .teem-list,
 .clients-list,
 .links-list,
 .project-filter,
-.projects-list {
+.projects-list,
+.address-list {
   list-style: none;
 }
 .benefits-name {
