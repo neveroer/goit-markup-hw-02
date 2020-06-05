@@ -47,9 +47,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.nav-list {
-  list-style: none;
-}
+
 .nav-list .list {
   color: var(--secondary-text-color);
 }
@@ -63,7 +61,7 @@ body {
 }
 .address-list .list {
   color: var(--primary-text-color);
-  list-style: none;
+
   font-style: normal;
 }
 .address-list .list:hover,
@@ -117,9 +115,7 @@ body {
   text-align: center;
   color: var(--secondary-text-color);
 }
-.work-types-list {
-  list-style: none;
-}
+
 .work-types-list-item {
   font-weight: 700;
   text-align: center;
