@@ -27,6 +27,10 @@ body {
   line-height: 1.19;
   color: var(--logo-color);
 }
+.logo:hover,
+.logo:focus {
+  background-color: red;
+}
 .logo-web {
   color: var(--accent-color);
 }
