@@ -142,23 +142,35 @@ body {
   line-height: 1.18;
   text-align: center;
 }
-/* clients */
+/* clients, на который не навесиш стили, пока нету свгшек */
 /* footer */
 .logo-studio {
   color: var(--third-text-color);
   /* фон временный, чтобы было видно текст */
   background-color: black;
 }
+.footer-address {
+  font-style: normal;
+}
 .address-map {
   color: var(--third-text-color);
   /* фон временный, чтобы было видно текст */
   background-color: black;
+}
+/* на макете нет, но решила отметить эффект наведения мышкой и клавиатурой */
+.address-map:hover,
+.address-map:focus,
+.mail-phone:hover,
+.mail-phone:focus {
+  color: black;
+  background-color: var(--third-text-color);
 }
 .mail-phone {
   color: var(--footer-adress-color);
   /* фон временный, чтобы было видно текст */
   background-color: black;
 }
+
 .footer-call {
   font-weight: 700;
   text-transform: uppercase;
